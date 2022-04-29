@@ -1,21 +1,21 @@
-## TypeScript, React, Web3JS, Hardhat, Hardhat Deploy Starter Kit
+# TypeScript, React, Web3JS, Hardhat, Hardhat Deploy Starter Kit
 With this repository you can kick-start a Web 3 project with TypeScript, React, Hardhat
 
-# Prepare Frontend
+## Prepare Frontend
 
 ```
 $ cd client
 $ npm install
 ```
 
-# Prepare Smart Contract
+## Prepare Smart Contract
 
 ```
 $ cd smart_contract
 $ npm install
 ```
 
-# Run Local Hardhat Network
+## Run Local Hardhat Network
 
 ```
 $ npx hardhat node
@@ -23,13 +23,13 @@ $ npx hardhat node
 
 **Important: Keep the Node running**
 
-# Deploy Contracts using `deploy/` folder
+## Deploy Contracts using `deploy/` folder
 
 ```
 $ npx hardhat deploy
 ```
 
-# Run Frontend
+## Run Frontend
 
 ```
 $ cd client

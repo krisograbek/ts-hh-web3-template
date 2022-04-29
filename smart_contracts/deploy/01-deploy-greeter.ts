@@ -7,13 +7,13 @@ const deployGreeter: DeployFunction = async (hre: HardhatRuntimeEnvironment) => 
   const { getNamedAccounts, deployments, network } = hre;
   const { deploy, log } = deployments;
   const { deployer } = await getNamedAccounts();
-  log("Deploying governance token by ", deployer)
+  log("Deploying Greeter by ", deployer)
   const greeter = await deploy("Greeter", { // contract name
     from: deployer,
     args: ["Initial Hello!"],
     log: true
   })
-  log(`Deployed govenrance token to ${greeter.address}`)
+  log(`Deployed Greeter to ${greeter.address}`)
 }
 
 export default deployGreeter;
